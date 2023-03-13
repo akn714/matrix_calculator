@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition: .5s;
+}
+
+body {
+    background-color: black;
+}
+
+.developer {
+    color: crimson;
+    border: 1px solid crimson;
+    padding: 15px;
+    border-radius: 15px;
+    position: absolute;
+    bottom: 100px;
+}
+
+.head {
+    height: 50px;
+    width: 100vw;
+    background-color: royalblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(80vh - 50px);
+}
+
+.btns {
+    margin-left: 20px;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clearbtn,
+.setMat {
+    height: 40px;
+    width: 100px;
+    font-size: 16px;
+    color: #ffffffdb;
+    background-color: gray;
+    border: 1px solid black;
+}
+
+
+.matrix {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.notice {
+    color: gray;
+    position: absolute;
+    top: 70px;
+}
+
+.mat {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    /* background-color: white; */
+    /* height: 300px;
+    width: 300px; */
+}
+
+span {
+    color: white;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    height: 40px;
+    width: 40px;
+    color: rgb(255 255 255 / 19%);
+    font-size: 40px;
+    cursor: pointer;
+    background: rgb(128 128 128 / 23%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.mat1,
+.mat2,
+.mat3 {
+    /* border: 1px solid red; */
+    margin: 20px;
+}
+
+.row {
+    display: flex;
+    gap: 2px;
+}
+
+input {
+    text-align: center;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid rgb(39, 39, 39);
+    width: 95px;
+    height: 100px;
+    font-size: 30px;
+    color: white;
+    padding: 1px;
+}
