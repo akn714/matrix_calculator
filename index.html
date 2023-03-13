@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" contenteditable="true"></script>
+    <style contenteditable="true"></style>
+</head>
+
+<body>
+    <div class="head" contenteditable="true">
+        <h2>MATRIX CALCULATOR</h2>
+        <div class="btns">
+            <button class="clearbtn" onclick="clearMatrices()">Clear Matrices</button>
+            <button class="setMat" onclick="createMatrices()">Set Matrix</button>
+        </div>
+    </div>
+    <div class="main">
+        <div class="matrix">
+            <div class="notice">Note : before calculating set the matrices using "Set Matrix" button</div>
+            <div class="mat mat1">
+                <!-- <div class="row">
+                    <input type="number" id="000">
+                    <input type="number" id="001">
+                    <input type="number" id="002">
+                </div>
+                <div class="row">
+                    <input type="number" id="010">
+                    <input type="number" id="011">
+                    <input type="number" id="012">
+                </div>
+                <div class="row">
+                    <input type="number" id="020">
+                    <input type="number" id="021">
+                    <input type="number" id="022">
+                </div> -->
+            </div>
+            <span>
+                <button class='operator' onclick="addMatrices()">+</button>
+                <button class='operator' onclick="subMatrices()">-</button>
+                <button class='operator' onclick="multMatrices()">x</button>
+            </span>
+            <div class="mat mat2">
+                <!-- <div class="row">
+                    <input type="number" id="100">
+                    <input type="number" id="101">
+                    <input type="number" id="102">
+                </div>
+                <div class="row">
+                    <input type="number" id="110">
+                    <input type="number" id="111">
+                    <input type="number" id="112">
+                </div>
+                <div class="row">
+                    <input type="number" id="120">
+                    <input type="number" id="121">
+                    <input type="number" id="122">
+                </div> -->
+            </div>
+            <span>
+                =
+            </span>
+            <div class="mat mat3">
+                <!-- <div class="row">
+                    <input type="number" id="200">
+                    <input type="number" id="201">
+                    <input type="number" id="202">
+                </div>
+                <div class="row">
+                    <input type="number" id="210">
+                    <input type="number" id="211">
+                    <input type="number" id="212">
+                </div>
+                <div class="row">
+                    <input type="number" id="220">
+                    <input type="number" id="221">
+                    <input type="number" id="222">
+                </div> -->
+            </div>
+        </div>
+        <div class="developer">
+            <h1>* website developed by adarsh kumar cse 1st year *</h1>
+        </div>
+    </div>
+</body>
+
+</html>
